@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Press+Start+2P&display=swap');
+
+
+/* { margin: 0; padding: 0; box-sizing: border-box; }
+canvas { height: 100vh; width: 100vw; background-color: skyblue; }
+bird { height: 100px; width: 160px; position: fixed; top: 40vh; left: 30vw; }
+pipe_sprite { position: fixed; width: 6vw; background-color: green; }
+message, .score { position: fixed; font-size: 10vh; z-index: 10; } */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive ;
+    user-select: none;
+}
+
+header {
+    margin: 0 auto;
+    width: 431px;
+}
+h1 {
+    background: url(../media/flappy-bird-set.png) 0% 340px;
+    padding: 1.2rem 0;
+    margin: 0;
+}
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: lab(48.34% 79.48 -51.76 / 0.897);
+}
+
+
